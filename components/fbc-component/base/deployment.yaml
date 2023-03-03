@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: fbc-component
     spec:
       containers:
-      - image: quay.io/lmendes/user-workload:f9_aX-fbc-component
+      - image: quay.io/lmendes/user-workload@sha256:5d1b7bb9da8111c53aff2ab57635664c3b0836b2409a3231e0d7fa27032c6b2e
         imagePullPolicy: Always
         name: container-image
         resources:
